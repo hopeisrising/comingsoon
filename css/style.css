@@ -1,0 +1,70 @@
+@-webkit-keyframes TEXT_APPEAR {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes TEXT_APPEAR {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem;
+  color: #696969;
+  height: 100vh;
+}
+
+#bgimage {
+  display: block;
+  height: 100vh;
+  padding-right: 38%;
+  background-image: url("../images/HopeIsRising-StorySocial.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.myrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#info {
+  background-color: #000000;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#details {
+  color: #ffffff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#details:hover {
+  color: #696969;
+}
+/*# sourceMappingURL=style.css.map */

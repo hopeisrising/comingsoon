@@ -1,0 +1,46 @@
+$black:#000000;
+$grey:#696969;
+$white:#ffffff;
+$accent:#10A89E;
+
+@keyframes TEXT_APPEAR {
+	0% {opacity: 0;}
+	30% {opacity: 0;}
+	100% {opacity: 1;}
+}
+body {
+	background-color: $white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2rem;
+	color: $grey;
+	height: 100vh;
+}
+
+#bgimage {
+	display: block;
+	height: 100vh;
+	padding-right: 38%;
+	background-image: url("../images/HopeIsRising-StorySocial.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.myrow {
+	display: flex;
+}
+#info {
+	background-color: $black;
+	flex-grow: 1;
+}
+#details {
+	color: $white;
+	transition: .3s;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+#details:hover {
+	color: $grey;
+}
+
